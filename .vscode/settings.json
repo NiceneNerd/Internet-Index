@@ -1,5 +1,6 @@
 {
     "prettier.tabWidth": 2,
+    "editor.formatOnSave": true,
     "[scss]": {
         "editor.suggest.insertMode": "replace",
         "gitlens.codeLens.scopes": [
