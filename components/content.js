@@ -13,6 +13,10 @@ export default function Content({ children }) {
           </nav>
         )}
         {children}
+        <hr />
+        <footer>
+          <a href="https://twitter.com/CalebDixonSmith">@CalebDixonSmith</a>
+        </footer>
       </main>
     </div>
   );

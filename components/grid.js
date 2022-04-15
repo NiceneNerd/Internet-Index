@@ -7,16 +7,19 @@ function Grid({ children }) {
 }
 
 function Item({ children, href }) {
-  const inner = (
-    <div
-      className={cn(styles.item, { [styles.pointer]: href })}
-      {...(href && {
-        title: href
-      })}>
-      {children}
-    </div>
+  return href ? (
+    href.includes("http") ? (
+      <a className={styles.item} href={href} target="_blank">
+        {children}
+      </a>
+    ) : (
+      <Link href={href}>
+        <div className={cn(styles.item, styles.pointer)}>{children}</div>
+      </Link>
+    )
+  ) : (
+    <div className={styles.item}>{children}</div>
   );
-  return href ? <Link href={href}>{inner}</Link> : inner;
 }
 
 function Title({ children }) {
@@ -27,11 +30,16 @@ function Body({ children }) {
   return <div className={styles.body}>{children}</div>;
 }
 
+function Footer({ children }) {
+  return <footer className={styles.footer}>{children}</footer>;
+}
+
 Item = Object.assign(Item, {
   Title,
-  Body
+  Body,
+  Footer,
 });
 
 export default Object.assign(Grid, {
-  Item
+  Item,
 });
