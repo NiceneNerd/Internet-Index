@@ -1,15 +1,26 @@
+import cn from "classnames";
+import Link from "next/link";
 import styles from "../styles/components/Grid.module.scss";
 
 function Grid({ children }) {
   return <div className={styles.grid}>{children}</div>;
 }
 
-function Item({ children }) {
-  return <div className={styles.item}>{children}</div>;
+function Item({ children, href }) {
+  const inner = (
+    <div
+      className={cn(styles.item, { [styles.pointer]: href })}
+      {...(href && {
+        title: href
+      })}>
+      {children}
+    </div>
+  );
+  return href ? <Link href={href}>{inner}</Link> : inner;
 }
 
 function Title({ children }) {
-  return <div className={styles.title}>{children}</div>;
+  return <h2 className={styles.title}>{children}</h2>;
 }
 
 function Body({ children }) {

@@ -1,0 +1,10 @@
+@import "var.scss";
+
+.image {
+  float: left;
+  margin: 1rem;
+
+  @media (min-width: $mobile-break) {
+    max-width: 33.33vw;
+  }
+}
