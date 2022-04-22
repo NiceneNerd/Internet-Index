@@ -54,9 +54,16 @@ export default function Computers() {
           As something of an aside, my computer interests also led me in time to
           tinker with smartphones and tablets, so I have significant experience
           with Android by now as well. I have developed two notable project for
-          Android devices: a dual-boot utility for the Samsung Galaxy Tab 7 and
-          set of tools for flashing software modifications on Motorola Moto X
-          without a bootloader unlock.
+          Android devices:{" "}
+          <a href="https://forum.xda-developers.com/t/howto-dual-boot-p31xx.1866675/">
+            a dual-boot utility for the Samsung Galaxy Tab 2 7.0
+          </a>{" "}
+          and{" "}
+          <a href="https://forum.xda-developers.com/t/script-utility-suicide-flash-for-moto.3173766/">
+            a set of tools for flashing software modifications on Motorola Moto
+            X without a bootloader unlock
+          </a>
+          .
         </p>
       </Content>
       {showModal && (
