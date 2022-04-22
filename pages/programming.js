@@ -12,29 +12,39 @@ export default function Programming() {
       <Content>
         <h1>Caleb the Programmer</h1>
         <p>
-          I've been programming in some capacity, to some extent, in some language (or
-          sometimes "language") or another, since I was an adolescent. In the early
-          dates I really only used HTML, CSS, and JavaScript, then later Visual
-          Basic.NET and C#, but all of that was for childhood nonsense.
+          I've been programming in some capacity, to some extent, in some
+          language (or sometimes "language") or another, since I was an
+          adolescent. In the early dates I really only used HTML, CSS, and
+          JavaScript, then later Visual Basic.NET and C#. Little of this
+          remains, but some small projects I made at 15 like ViCon, ReClock, and
+          sPeek remain on{" "}
+          <a href="https://www.deviantart.com/mixendixon/gallery">
+            my old DeviantArt gallery
+          </a>
+          .
         </p>
         <p>
-          As an adult, I taught myself more seriously <strong>JavaScript</strong>{" "}
-          (especially React), <strong>Python</strong>, and <strong>Rust</strong>, all of
-          which I am now fairly proficient in. I have dabbled in other languages as well
+          As an adult, I taught myself more seriously{" "}
+          <strong>JavaScript</strong> (especially React),{" "}
+          <strong>Python</strong>, and <strong>Rust</strong>, all of which I am
+          now fairly proficient in. I have dabbled in other languages as well
           (C++, Bash, PHP), and I plan to learn C++, C#, and Go.
         </p>
         <p>
-          All of my <em>professional</em> experience is in <strong>JavaScript</strong>.
-          This experience has included especially common modern tools and technologies
-          like <strong>React</strong>, <strong>Node</strong>, <strong>Sails.io</strong>,{" "}
+          All of my <em>professional</em> experience is in{" "}
+          <strong>JavaScript</strong>. This experience has included especially
+          common modern tools and technologies like <strong>React</strong>,{" "}
+          <strong>Node</strong>, <strong>Sails.io</strong>,{" "}
           <strong>jQuery</strong>, and some <strong>Angular</strong> and{" "}
           <strong>React Native</strong>.
         </p>
         <p>
-          Below are a few sample projects of mine. Most of them link to GitHub, but BCML
-          has its own page here. If you see a repeated theme, it is because I seriously
-          began teaching myself programming as an adult in order to support the{" "}
-          <em>Breath of the Wild</em> modding community.
+          Below are a few sample projects of mine. Most of them link to GitHub,
+          but BCML has its own page here. If you see a repeated theme, it is
+          because I seriously began teaching myself programming as an adult in
+          order to support the <em>Breath of the Wild</em> modding community. I
+          have also contributed at least small patches or improvements to around
+          a dozen libraries, mostly in Python or Rust.
         </p>
         <Grid>
           <Grid.Item href="/bcml">
@@ -55,9 +65,9 @@ export default function Programming() {
                 </a>{" "}
               </div>
               <p>
-                Mod manager for <em>The Legend of Zelda: Breath of the Wild</em>,
-                written in Python and React. Over 100k downloads, 16k lines of code,
-                1000 commits.
+                Mod manager for <em>The Legend of Zelda: Breath of the Wild</em>
+                , written in Python and React. Over 100k downloads, 16k lines of
+                code, 1000 commits.
               </p>
               <Grid.Item.Footer>More information...</Grid.Item.Footer>
             </Grid.Item.Body>
@@ -80,8 +90,8 @@ export default function Programming() {
                 </a>{" "}
               </div>
               <p>
-                Graphical file editor for common Nintendo file formats, written first in
-                Python and React, then rewritten with a Rust backend.
+                Graphical file editor for common Nintendo file formats, written
+                first in Python and React, then rewritten with a Rust backend.
               </p>
               <Grid.Item.Footer>GitHub</Grid.Item.Footer>
             </Grid.Item.Body>
@@ -103,7 +113,8 @@ export default function Programming() {
                   <img src="https://img.shields.io/github/workflow/status/NiceneNerd/roead/Build%20and%20test" />
                 </a>
               </div>
-              Rust bindings to the C++ oead library for common Nintendo file formats.
+              Rust bindings to the C++ oead library for common Nintendo file
+              formats.
             </Grid.Item.Body>
           </Grid.Item>
           <Grid.Item href="https://github.com/NiceneNerd/rusted-parrot">

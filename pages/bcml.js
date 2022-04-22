@@ -57,8 +57,8 @@ export default function BCML() {
             <strong>130k downloads</strong>. (The total download count is hard
             to nail down with precision, however, because for a long time it was
             available separately on GameBanana, PyPI, GitHub, and Nexus Mods.
-            Now all distribution is through PyPI, which has notoriously bizarre
-            download statistics.)
+            Now all distribution is through PyPI, which has notoriously
+            misleading download statistics.)
           </p>
           <p>
             At the height of BCML's development, I ran a Patreon which earned
