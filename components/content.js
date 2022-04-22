@@ -14,8 +14,10 @@ export default function Content({ children }) {
         )}
         {children}
         <hr />
-        <footer>
-          <a href="https://twitter.com/CalebDixonSmith">@CalebDixonSmith</a>
+        <footer className={styles.footer}>
+          <a href="/resume.pdf">Résumé</a>
+          <a href="https://github.com/NiceneNerd">GitHub</a>
+          <a href="https://twitter.com/CalebDixonSmith">Twitter</a>
         </footer>
       </main>
     </div>
