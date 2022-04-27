@@ -48,26 +48,41 @@ export default function Home() {
           <Grid.Item href="/writing">
             <Grid.Item.Title>Writing</Grid.Item.Title>
             <Grid.Item.Body>
-              Since second grade I have always been driven to write, fiction
-              moreso in my childhood and essays moreso in the present.
+              <p>
+                Since second grade I have always been driven to write, fiction
+                moreso in my childhood and essays moreso in the present.
+              </p>
             </Grid.Item.Body>
+            <Grid.Item.Footer>Read more...</Grid.Item.Footer>
           </Grid.Item>
-          <Grid.Item>
+          <Grid.Item href="/theology">
             <Grid.Item.Title>Theology and Philosophy</Grid.Item.Title>
             <Grid.Item.Body>
-              From the third grade lunch table until today, I have been
-              incessantly given to the study and disputation of theology,
-              ethics, and, to a lesser extent, philosophy, recently including
-              political philosophy.
+              <p>
+                From the third grade lunch table until today, I have been
+                incessantly given to the study and disputation of theology,
+                ethics, and, to a lesser extent, philosophy, recently including
+                political philosophy.
+              </p>
             </Grid.Item.Body>
+            <Grid.Item.Footer>Read more...</Grid.Item.Footer>
           </Grid.Item>
           <Grid.Item>
             <Grid.Item.Title>
               Fantasy and the Medieval Donegality
             </Grid.Item.Title>
             <Grid.Item.Body>
-              My imagination has always been captive to the world of swords,
-              castles, lore, and other worlds.
+              <p>
+                My imagination has always been captive to the world of swords,
+                castles, lore, and other worlds.
+              </p>
+              <p>
+                <em>
+                  (You don't need to read more, just consider The Lord of the
+                  Rings, Mary Stewart's Merlin trilogy, Narnia, and tales of
+                  Joan of Arc.)
+                </em>
+              </p>
             </Grid.Item.Body>
           </Grid.Item>
         </Grid>
