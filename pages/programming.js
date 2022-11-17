@@ -117,6 +117,13 @@ export default function Programming() {
               formats.
             </Grid.Item.Body>
           </Grid.Item>
+          <Grid.Item href="https://github.com/NiceneNerd/dialectic>
+            <Grid.Item.Title>Dialectic</Grid.Item.Title>
+            <Grid.Item.Body>
+              A sample web development project representing an article
+              comments page. Frontend in React, backend in Rust. Live
+              demo <a href="http://96.30.193.224/">here</a>.
+          </Grid.Item>
           <Grid.Item href="https://github.com/NiceneNerd/rusted-parrot">
             <Grid.Item.Title>Rusted Parrot</Grid.Item.Title>
             <Grid.Item.Body>
