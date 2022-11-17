@@ -123,6 +123,7 @@ export default function Programming() {
               A sample web development project representing an article
               comments page. Frontend in React, backend in Rust. Live
               demo <a href="http://96.30.193.224/">here</a>.
+            </Grid.Item.Body>
           </Grid.Item>
           <Grid.Item href="https://github.com/NiceneNerd/rusted-parrot">
             <Grid.Item.Title>Rusted Parrot</Grid.Item.Title>
