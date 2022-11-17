@@ -117,7 +117,7 @@ export default function Programming() {
               formats.
             </Grid.Item.Body>
           </Grid.Item>
-          <Grid.Item href="https://github.com/NiceneNerd/dialectic>
+          <Grid.Item href="https://github.com/NiceneNerd/dialectic">
             <Grid.Item.Title>Dialectic</Grid.Item.Title>
             <Grid.Item.Body>
               A sample web development project representing an article
