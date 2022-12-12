@@ -19,6 +19,7 @@ export default function Content({ children }) {
           <a href="https://github.com/NiceneNerd">GitHub</a>
           <a href="https://twitter.com/CalebDixonSmith">Twitter</a>
           <a href="/hire">Hire Me</a>
+          <a href="https://calebdixonsmith.top/about/">About Me</a>
         </footer>
       </main>
     </div>
