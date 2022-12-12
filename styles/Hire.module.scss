@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .col {
+    box-sizing: border-box;
+    align-items: stretch;
+    max-width: calc(50% - 1rem);
+
+    @media (max-width: 960px) {
+      max-width: unset;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      text-align: center;
+    }
+  }
+}
