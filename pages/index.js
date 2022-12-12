@@ -21,7 +21,10 @@ export default function Home() {
 
         <p className={styles.description}>
           Welcome to Caleb Smith's Internet index. I am a man of a few mostly
-          irreconcilable interests and activities, detailed below.
+          irreconcilable interests and activities, detailed below. One of my
+          interests is taking freelance web and software development projects,
+          so if you are interested in that,{" "}
+          <a href="/hire">here's how to hire me</a>.
         </p>
 
         <Grid>
